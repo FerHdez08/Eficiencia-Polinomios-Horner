@@ -1,5 +1,7 @@
 # Eficiencia-Polinomios-Horner
-Análisis comparativo de la eficacia de método de evaluación de polinomios
+Análisis comparativo de la eficacia de método de evaluación de polinomios.
+
+**Autor:** María Fernanda Hernández García
 
 ## Evaluación de Tiempos de Polinomios
 
@@ -10,7 +12,6 @@ Este programa tiene como objetivo comparar el tiempo de evaluación de polinomio
 
 El experimento consiste en medir y registrar los tiempos de evaluación promedio de ambos métodos para polinomios de grados desde **10 hasta 1000**, en incrementos de **10**.
 
-**Autor:** María Fernanda Hernández García
 
 ---
 ## Requisitos del sistema para ejecutar el código

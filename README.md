@@ -87,7 +87,7 @@ en el **método Estándar** la complejidad es **O(n²)**, por lo que al aumentar
      }
  ```
 
-En este ciclo implementado en el metodo podemos apreciar como el calculo para cada potencia de x inicia desde principio siempre. <br> <br>
+En este ciclo implementado en el método podemos apreciar como el cálculo para cada potencia de x inicia desde principio siempre. <br> <br>
    
 En el **método de Horner** la complejidad es **O(n)**, por lo que el aumento del tiempo es lineal, el grado de n va conforme el tiempo que tarda en evaluar y como esta complejidad es lineal, el tiempo           lo es también. <br>
     
@@ -101,6 +101,6 @@ En el **método de Horner** la complejidad es **O(n)**, por lo que el aumento de
 ---
  ## Conclusión
 
-Gracias a los resultados experimentales, podemos confirmar la teoría de la complejidad de los métodos, donde pudimos constatar que el método de Horner es superior en cuanto a eficiencia gracias a su poca cantidad en cuanto de operaciones o pasos en comparación a las del método Estándar. <br>
+Gracias a los resultados experimentales, podemos confirmar la teoría de la complejidad de los métodos, donde pudimos constatar que el método de Horner es superior en cuanto a eficiencia gracias a su poca cantidad en cuanto de operaciones o pasos en comparación a las de la evaluación Estándar. <br>
 A pesar de que el procedimiento Estandar para calcular la evaluación de un polinomio parezca más intuitivo, no resulta ser más eficiente, ya que a fin de cuentas el método Estándar realiza varias veces las mismas operaciones.
 Entonces para buscar aprovechar la evaluación de un polinomio en menor tiempo de forma significativa podemos optar por utilizar el método de Horner.

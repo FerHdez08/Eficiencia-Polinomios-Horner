@@ -46,3 +46,24 @@ Evaluacion-Polinomios
 ***Alternativa:*** <br>
 
 *Descargar el archivo Evaluacion-Polinomios.cpp y compilar desde un IDE a su preferencia.*
+
+---
+
+## Descripción de los Algoritmos de Evaluación Polinomial
+
+### 1. Método Estándar (Implementado en EvaluarPolinomio())
+Evalúa el polinomio como suma de términos independientes:
+P(x) = A[0]x^n + A[1]x^[n-1] + ... + A[n-1]x + A[n]
+
+- Calcula cada potencia de x por separado
+- Usa multiplicaciones anidadas para potencias
+- **Complejidad**: O(n²) operaciones aritméticas
+
+### 2. Esquema de Horner (Implementado en EvaluarPolinomioHorner())
+Evalúa el polinomio como una sucesión, donde multiplicas por el valor de x, le sumas un nuevo coeficiente y al resultado se le vuelve a aplicar lo mismo(multiplicar por el valor de x y sumas el nuevo coeficiente). <br>
+Reescribe el polinomio en forma anidada:
+
+P(x) = (...((A[0]x + A[1])x + A[2])x + ... + A[n-1])x + A[n]
+
+
+- **Complejidad**: O(n)

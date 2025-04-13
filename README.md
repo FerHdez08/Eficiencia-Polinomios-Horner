@@ -68,4 +68,4 @@ P(x) = (...((A[0]x + A[1])x + A[2])x + ... + A[n-1])x + A[n]
 - **Complejidad**: O(n)
 
 ## Resultados experimentales y gráfica comparativa:
-  ![7Métodos](Evaluacion.png)
+  ![Resultados Experimentales](Evaluacion.png)

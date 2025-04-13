@@ -70,7 +70,7 @@ P(x) = (...((A[0]x + A[1])x + A[2])x + ... + A[n-1])x + A[n]
 ## Resultados experimentales y gráfica comparativa:
   ![Evaluacion.png](Evaluacion.png)
 
-  Aparenmente el método de Horner pareciera una recta hprizontal , pero eso es solo una prueba más de su eficencia en comparación a la evaluación estándar, teniendo que Horner es lineal, haciendolo aparentar constante
+  Aparenmente el método de Horner pareciera una recta hprizontal , pero eso es solo una prueba más de su eficencia en comparación a la evaluación estándar, teniendo que Horner es lineal, haciendolo aparentar constante.
 
 ## Análisis de Resultados
 
